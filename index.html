@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+    <br>
+    <form>
+        <p class="para"> Enter your details below</p>
+        <div class="details-div">
+            <ul>
+                <li><input type="email" value="your_email@gmail.com" class="email" required></li><br>
+                <li><input type="password" placeholder="Password" class="password" required></li>
+                <h3> !Type a complex password with 8-20 characters.</h3>
+                <li><input type="number" placeholder="+20 Phone Number" class="number" required></li>
+            </ul>
+        </div>
+        <hr class="hr1">
+
+        <h2 class="font-profession"> Enter your profession:</h2>
+        <div class="profession-div">
+            <ul>
+                <li>
+                    <input type="radio" name="profession" class="input-profession" required><label for="student"
+                        class="profession-space">Student</label>
+                    <input type="radio" name="profession" class="input-profession" required><label for="teacher"
+                        class="profession-space">Teacher</label>
+                    <input type="radio" name="profession" class="input-profession" required><label for="developer"
+                        class="profession-space">Developer</label>
+
+                </li>
+            </ul>
+            <br>
+        </div>
+        <label class="stage"> Choose the stage if you are(student)</label> <select name="stages" required>
+            <option value="f-primary"> first primary</option>
+            <option value="f-primary"> secondary primary</option>
+
+
+        </select>
+        <hr class="hr1">
+        <div class="birth-div">
+            <ul class="birth-ul" >
+                <li>Enter your Birth date.</li>
+                <input type="date" required>
+            </ul>
+        </div>
+        <hr class="hr1">
+        <div class="details-div">
+            <ul>
+                <li><input type="text" placeholder="Any notes" class="number"></li>
+            </ul>
+        </div>
+        <hr class="hr1">
+
+        <input type="submit" value="Submit" class="btn-submit">
+        <input type="reset" value="Reset" class="btn-reset">
+
+    </form>
+</body>
+
+</html>

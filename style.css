@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url(milad-fakurian-lz8j9lMe-oA-unsplash.jpg);
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+.para {
+    font-size: 25px;
+    margin-left: 20px;
+
+}
+
+.details-div {
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+
+.email {
+    margin-left: 30px;
+    width: 200px;
+    height: 20px;
+    font-weight: bold;
+}
+
+.password {
+    margin-left: 30px;
+    width: 200px;
+    height: 20px;
+
+}
+
+.number {
+    margin-left: 30px;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-left: -60px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.profession-div {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.font-profession {
+    font-family: math;
+}
+
+.input-profession {
+    margin-left: 30px;
+
+}
+
+hr {
+    border: 1px solid gray;
+}
+
+.profession-space {
+    margin-left: 10px;
+}
+
+.stage {
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.hr1 {
+    margin-top: 15px;
+}
+
+.birth-div {
+    margin-top: 30px;
+    margin-left: 60px;
+    font-size: 25px;
+}
+
+.birth-ul {
+    display: flex;
+}
+
+.btn-submit {
+    width: 65px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 35px;
+
+}
+.btn-reset {
+
+    width: 65px;
+    height: 25px;
+    margin-top: 10px;
+}
